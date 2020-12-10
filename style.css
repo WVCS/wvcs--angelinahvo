@@ -1,6 +1,8 @@
 body {
   background: pink;
 }
+/* Nav Bar Style
+*/
   ul {
   list-style-type: none;
   margin: 0;
@@ -14,7 +16,7 @@ body {
 
 li {
   display: block;
-  width: 60px;
+  width: 120px;
   display: inline;
   padding: 8px 16px;
   text-align: center;
