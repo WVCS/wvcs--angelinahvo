@@ -15,7 +15,10 @@ body {
 }
 
 li {
+  border: 1px solid #bbb;
   float: left;
+  border-right: 1px solid #bbb;
+
 }
 
 li a: {
