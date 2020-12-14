@@ -1,28 +1,31 @@
 body {
   background: #9ead89;
+  font-size: 28x;
 }
 /* Nav Bar Style
 */
   ul {
   list-style-type: none;
   margin: 0;
-  padding: 30x;
+  padding: 0;
   background-color: #f2f0cb;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
-    position: fixed;
-  width: 100%;
-  left: 0;
-  text-decoration: none;
 }
 
 li {
-  display: block;
-  width: 120px;
-  display: inline;
-  padding: 8px 16px;
-  text-align: center;
+  float: left;
 }
 
-li a: hover {
+li a: {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14x 16x;
+  text-decoration: none;
+}
+
+li a:hover {
   background-color: #CFB997
 }
