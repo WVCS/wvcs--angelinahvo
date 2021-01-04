@@ -5,13 +5,6 @@ body {
 /* Nav Bar Style
 */
   ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f0cb;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
 }
 
 li {
@@ -27,6 +20,13 @@ li a: {
   text-align: center;
   padding: 14x 16x;
   text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f0cb;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0
 }
 
 li a:hover {
