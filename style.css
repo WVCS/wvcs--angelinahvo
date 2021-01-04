@@ -5,6 +5,12 @@ body {
 /* Nav Bar Style
 */
   ul {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14x 16x;
+    text-decoartion: none;
+    font-size: 17px;
 }
 
 li {
@@ -15,11 +21,6 @@ li {
 }
 
 li a: {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14x 16x;
-  text-decoration: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
