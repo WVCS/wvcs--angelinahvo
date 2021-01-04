@@ -1,3 +1,5 @@
+<style>
+
 body {
   background: #9fba8f;
 }
@@ -26,3 +28,10 @@ li a: hover {
   background-color: #CFB997
   color: #000000;
 }
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  top: 300;
+}
+</style>
